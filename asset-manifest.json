@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.js": "/cornflex/static/js/main.5c310952.chunk.js",
+    "main.js.map": "/cornflex/static/js/main.5c310952.chunk.js.map",
+    "runtime-main.js": "/cornflex/static/js/runtime-main.2347d7b6.js",
+    "runtime-main.js.map": "/cornflex/static/js/runtime-main.2347d7b6.js.map",
+    "static/css/2.679831fc.chunk.css": "/cornflex/static/css/2.679831fc.chunk.css",
+    "static/js/2.43247aec.chunk.js": "/cornflex/static/js/2.43247aec.chunk.js",
+    "static/js/2.43247aec.chunk.js.map": "/cornflex/static/js/2.43247aec.chunk.js.map",
+    "index.html": "/cornflex/index.html",
+    "static/css/2.679831fc.chunk.css.map": "/cornflex/static/css/2.679831fc.chunk.css.map",
+    "static/js/2.43247aec.chunk.js.LICENSE.txt": "/cornflex/static/js/2.43247aec.chunk.js.LICENSE.txt",
+    "static/media/logo.5787551b.svg": "/cornflex/static/media/logo.5787551b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2347d7b6.js",
+    "static/css/2.679831fc.chunk.css",
+    "static/js/2.43247aec.chunk.js",
+    "static/js/main.5c310952.chunk.js"
+  ]
+}
