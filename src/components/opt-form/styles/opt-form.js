@@ -16,11 +16,33 @@ export const Container = styled.div`
 export const Input = styled.input`
   max-width: 450px;
   width: 100%;
+  min-width: 200px;
   border: 0;
-  padding: 10px;
+  padding: 0 10px; /* Remove vertical padding */
   height: 70px;
+  line-height: 70px; /* Vertically center text */
   box-sizing: border-box;
+  border-radius: 4px;
+  text-align: center;
+
+  &::placeholder {
+    text-align: center;
+  }
+
+  &:focus {
+    outline: none;
+    border-color: #e50914;
+    box-shadow: 0 0 5px #e50914;
+  }
+
+  @media (max-width: 480px) {
+    height: 50px;
+    line-height: 50px;
+    padding: 0 8px;
+  }
 `;
+
+
 
 export const Button = styled.button`
   display: flex;

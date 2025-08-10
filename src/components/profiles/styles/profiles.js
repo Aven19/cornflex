@@ -15,6 +15,10 @@ export const Title = styled.h1`
   font-size: 48px;
   text-align: center;
   font-weight: 500;
+
+  @media (max-width: 480px) {
+    font-size: 32px;
+  }
 `;
 
 export const List = styled.ul`
@@ -22,12 +26,19 @@ export const List = styled.ul`
   margin: 0;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
 `;
 
 export const Name = styled.p`
   color: #808080;
-  text-overflow: ellipsis;
   font-size: 16px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 8px;
+  cursor: default;
 
   &:hover {
     font-weight: bold;
@@ -41,6 +52,10 @@ export const Picture = styled.img`
   height: auto;
   border: 3px solid black;
   cursor: pointer;
+
+  @media (max-width: 480px) {
+    max-width: 100px;
+  }
 `;
 
 export const Item = styled.li`
@@ -61,5 +76,11 @@ export const Item = styled.li`
 
   &:last-of-type {
     margin-right: 0;
+  }
+
+  @media (max-width: 480px) {
+    max-width: 140px;
+    max-height: 140px;
+    margin-right: 15px;
   }
 `;
