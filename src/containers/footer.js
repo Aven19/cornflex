@@ -3,7 +3,7 @@ import { Footer } from "../components";
 export function FooterContainer() {
   return (
     <Footer>
-      <Footer.Title>Question Contact uS?</Footer.Title>
+      <Footer.Title>Question Contact us?</Footer.Title>
       <Footer.Break />
       <Footer.Row>
         <Footer.Column>
